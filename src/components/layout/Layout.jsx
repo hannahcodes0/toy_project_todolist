@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+// Layout에는 children 주로 사용
 const Layout = ({ children }) => {
   return <StLayout>{children}</StLayout>;
 };

@@ -24,6 +24,7 @@ const Form = () => {
   const onSubmitHandler = (event) => {
     event.preventDefault();
     if (todo.title.trim() === "" || todo.body.trim() === "") return;
+    // 둘 중 하나라도 공백이라면 글이 추가가 안됨
 
     dispatch(addTodo({ ...todo, id }));
     setTodo({
