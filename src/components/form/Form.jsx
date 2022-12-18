@@ -4,8 +4,9 @@ import { useDispatch } from "react-redux";
 import nextId from "react-id-generator";
 import { addTodo } from "../modules/todos";
 
+
 const Form = () => {
-  const id = nextId();
+  const id = nextId(); // react-id-generator 다운로드
 
   const dispatch = useDispatch();
   const [todo, setTodo] = useState({
