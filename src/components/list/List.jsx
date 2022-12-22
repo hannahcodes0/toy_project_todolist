@@ -25,7 +25,7 @@ const List = () => {
             return (
               <StTodoContainer key={todo.id}>
                 <StLink to={`/${todo.id}`} key={todo.id}>
-                  <div>상세보기</div>
+                  <div>상세 보기</div>
                 </StLink>
                 <div>
                   <h2 className="todo-title">{todo.title}</h2>
